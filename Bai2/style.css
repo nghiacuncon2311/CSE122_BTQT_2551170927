@@ -1,0 +1,33 @@
+.container {
+    background: linear-gradient(to bottom, #C9A227, #A8861B);
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 3px #555;
+}
+
+.image {
+    float: right;
+    border: 3px solid white;
+    margin-left: 20px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 25px;
+    }
+    
+    .image {
+        float: none;
+    }
+}

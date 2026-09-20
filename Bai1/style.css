@@ -1,0 +1,44 @@
+.container {
+    background-color: #FFFDE7;
+    text-align: center;
+    border: 1px solid #9E9E9E;
+}
+
+h1 {
+    color: #D40000;
+    background-color: #FFD9E6;
+    font-weight: bold;
+    margin: 20px;
+}
+
+p {
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.first {
+    color: #0033CC;
+}
+
+.second {
+    color: #D40000;
+}
+
+.third {
+    color: #0033CC;
+}
+
+hr {
+    color: #0033CC;
+    width: 55%;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+        margin: 10px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
