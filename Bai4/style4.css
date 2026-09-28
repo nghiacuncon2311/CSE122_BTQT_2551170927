@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 95%;
+    margin: 30px auto;
+}
+
+h1 {
+    color: #1565C0;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 0.3;
+}
+
+p::first-letter {
+    float: left;
+    color: #C62828;
+    font-size: 48px;
+    line-height: 40px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.sub-title {
+    background-color: #1565C0;
+    color: #FFFFFF;
+    text-align: right;
+    padding: 8px;
+}
