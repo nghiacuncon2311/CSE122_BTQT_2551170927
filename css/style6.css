@@ -7,7 +7,7 @@ body {
     margin: 30px auto;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #FFF8E1;
+    background-color: #FAF3E0;
 }
 
 h1 {
@@ -48,15 +48,16 @@ th {
 }
 
 td {
+    background-color: #FFFFFF;
+    border-bottom: 1px, solid, #E0D6C2;
     padding: 8px;
-    border-bottom: 1px solid #E0D6C2;
 }
 
 th:first-child, td:first-child {
-    width: 15%;
     text-align: center;
+    width: 15%;
 }
 
-tr:nth-child(even) {
+tr:nth-child(odd) td {
     background-color: #FDF8EF;
 }
